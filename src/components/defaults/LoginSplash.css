@@ -1,0 +1,91 @@
+.loginSplashContainer{
+    background-image: url("../../img/revolvr-intro.png");
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+
+.login-central-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.revolvr-logo-login{
+    padding-top: 90px;
+    max-width: 600px;
+}
+
+.revolver-square-logo{
+    opacity: 50%;
+    height: 50px;
+}
+
+.revolver-square-logo:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.user-button-controls-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 400px;
+}
+
+.createAccountButtonContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.createAccountButton{
+    width: 400px;
+    padding: 3% 0px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    border-color: #9f2222;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.loginButtonContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.loginButton{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0px;
+    cursor: pointer; 
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: 23px;
+    font-family: 'DM Sans', sans-serif;
+}
+.loginButton:hover{
+    background-color: #ffff;
+    color: red;
+    transition: all 0.5s;
+}
+
+.createAccountButton:hover{
+    background-color: #a83737;
+    color: #fff;
+    transition: all 0.5s;
+}
